@@ -3,7 +3,9 @@
 }
 
 body {
-  background-color: rgb(214, 207, 198);
+  background-image: url(./assets/237630.webp);
+  background-repeat: no-repeat;
+  background-size: cover;
 }
 
 p {
