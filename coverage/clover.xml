@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<coverage generated="1678894516923" clover="3.2.0">
-  <project timestamp="1678894516923" name="All files">
+<coverage generated="1678897876535" clover="3.2.0">
+  <project timestamp="1678897876535" name="All files">
     <metrics statements="17" coveredstatements="17" conditionals="0" coveredconditionals="0" methods="3" coveredmethods="3" elements="20" coveredelements="20" complexity="0" loc="17" ncloc="17" packages="1" files="1" classes="1"/>
     <file name="todo.js" path="C:\Users\Ryank\Review-To-do-list\src\tests\todo.js">
       <metrics statements="17" coveredstatements="17" conditionals="0" coveredconditionals="0" methods="3" coveredmethods="3"/>

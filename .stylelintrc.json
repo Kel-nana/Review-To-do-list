@@ -36,6 +36,7 @@
   "ignoreFiles": [
     "build/**",
     "dist/**",
+    "coverage/**",
     "**/reset*.css",
     "**/bootstrap*.css",
     "**/*.js",
