@@ -94,7 +94,7 @@ Clone this repository to your desired folder:
 
 ### Install
 
-Install this project with:
+- Install this project using following commands:
 
       npm init -y
       npm start
@@ -116,10 +116,14 @@ Install this project with:
 
 
 ### Deployment
+- Add the following scripts to your jason file:
 
-You can deploy this project using:
-- Free deployment services like GitHub pages.
-- Any deployment services of your choice.
+      "predeploy": "npm run build",
+      "deploy": "gh-pages -d dist"
+
+- You can deploy this project using:
+  - Free deployment services like GitHub pages.
+  - Any deployment services of your choice.
 
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
@@ -132,6 +136,14 @@ You can deploy this project using:
 - GitHub: [@ab-noori](https://github.com/ab-noori)
 - Twitter: [@AbdulAliNoori4](https://twitter.com/AbdulAliNoori4)
 - LinkedIn: [abdul-ali-noori](https://www.linkedin.com/in/abdul-ali-noori-384b85195/)
+
+👤 **Kelvin Irungu**
+
+- GitHub: [@Kel-nana](https://github.com/Kel-nana)
+
+👤 **Bisaso Ronald**
+
+- GitHub: [@bronnie313](https://github.com/bronnie313)
 
 
 ## 🔭 Future Features <a name="future-features"></a>
