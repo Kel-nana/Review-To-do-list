@@ -94,12 +94,10 @@ Clone this repository to your desired folder:
 
 ### Install
 
-Install this project with:
+- Install this project using following commands:
 
       npm init -y
-
       npm start
-      
       npm test
 
 
@@ -118,10 +116,14 @@ Install this project with:
 
 
 ### Deployment
+- Add the following scripts to your jason file:
 
-You can deploy this project using:
-- Free deployment services like GitHub pages.
-- Any deployment services of your choice.
+      "predeploy": "npm run build",
+      "deploy": "gh-pages -d dist"
+
+- You can deploy this project using:
+  - Free deployment services like GitHub pages.
+  - Any deployment services of your choice.
 
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
