@@ -8,7 +8,6 @@
 | Desktop Veiw Representation|
 |---------------------------------------|
 |![screenshot](./src/assets/project-shot.PNG)|
-|![screenshot](./src/assets/project-shot2.PNG)|
 
 <!-- TABLE OF CONTENTS -->
 
