@@ -4,12 +4,12 @@
   "description": "<a name=\"readme-top\"></a>",
   "private": "true",
   "scripts": {
-    "test": "jest --coverage",
+    "build": "webpack",
     "watch": "webpack --watch",
     "start": "webpack serve --open",
-    "build": "webpack",
     "predeploy": "npm run build",
-    "deploy": "gh-pages -d dist"
+    "deploy": "gh-pages -d dist",
+    "test": "jest --coverage"
   },
   "keywords": [],
   "author": "",
@@ -35,7 +35,7 @@
     "stylelint-csstree-validator": "^1.9.0",
     "stylelint-scss": "^3.21.0",
     "text-encoding": "^0.7.0",
-    "webpack": "^5.76.1",
+    "webpack": "^5.76.2",
     "webpack-cli": "^5.0.1",
     "webpack-dev-server": "^4.11.1",
     "workbox-webpack-plugin": "^6.5.4"

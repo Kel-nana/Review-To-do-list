@@ -97,9 +97,7 @@ Clone this repository to your desired folder:
 Install this project with:
 
       npm init -y
-
       npm start
-      
       npm test
 
 
