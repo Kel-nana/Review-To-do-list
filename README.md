@@ -65,7 +65,7 @@
 
 ## 🚀 Live Demo <a name="live-demo"></a>
 
-> - [Live Demo Link](https://ab-noori.github.io/Review-To-do-list/dist)
+> - [Live Demo Link](https://kel-nana.github.io/Review-To-do-list/dist)
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -89,7 +89,7 @@ Clone this repository to your desired folder:
 - Use the following Commands:
 
       cd your-desired-folder
-      git clone git@github.com:ab-noori/Project-Template.git
+      git clone https://github.com/Kel-nana/Review-To-do-list.git
 
 
 ### Install
