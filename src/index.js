@@ -7,37 +7,6 @@ import addNewItem from './modules/addNewItem.js';
 import removeItem from './modules/removeItem.js';
 import editItem from './modules/editItem.js';
 import clearCompleted from './modules/clearCompleted.js';
-// const addNewItem = (item, data) => {
-//   const obj = { description: item, completed: false };
-//   const newData = [...data, obj];
-//   setItems(newData);
-//   displayList(newData);
-//   completeTasks(newData);
-//   return newData;
-// };
-
-// const removeItem = (itemId, data) => {
-//   const newData = data.filter((item) => item.id !== itemId);
-//   setItems(newData);
-//   displayList(newData);
-//   completeTasks(newData);
-//   return newData;
-// };
-
-// const editItem = (itemKey, newValue, data) => {
-//   const oldData = data.filter((item) => item.description === itemKey);
-//   oldData[0].description = newValue;
-//   setItems(data);
-//   displayList(data);
-//   return data;
-// };
-
-// const clearCompleted = (data) => {
-//   const newData = data.filter((item) => !item.completed);
-//   setItems(newData);
-//   displayList(newData);
-//   return newData;
-// };
 
 const main = () => {
   // Get the 'addToDo' element and existing to-do data from local storage
