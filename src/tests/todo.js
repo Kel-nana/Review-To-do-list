@@ -32,22 +32,6 @@ const editItem = (itemKey, newValue, data) => {
     return data;
   };
 
-  const clearCompleted = (data) => {
-    const newData = data.filter((item) => !item.completed);
-    setItems(newData);
-    displayList(newData);
-    return newData;
-  };
-
-  const completeTasksFunction = (toDoData) => {
-    return toDoData.map((data) => {
-      if (data.completed) {
-        return { ...data, completed: true };
-      } else {
-        return data;
-      }
-    });
-  };
 
 
 

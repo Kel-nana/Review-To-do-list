@@ -66,51 +66,5 @@ describe('editItem', () => {
 });
 
 
-describe('clearCompleted', () => {
-    test('clearCompleted should remove completed items from the data array', () => {
-        const initialData = [
-          { id: 1, description: 'item1', completed: true },
-          { id: 2, description: 'item2', completed: false },
-          { id: 3, description: 'item3', completed: true },
-        ];
-        const expectedData = [
-          { id: 2, description: 'item2', completed: false },
-        ];
-      
-        const result = clearCompleted(initialData);
-      
-        expect(result).toEqual(expectedData);
-      });      
-});
 
-describe('completeTasksFunction', () => {
-    test('should set the completed field to true for all completed tasks', () => {
-      const toDoData = [
-        { description: 'Task 1', completed: false },
-        { description: 'Task 2', completed: true },
-        { description: 'Task 3', completed: false },
-        { description: 'Task 4', completed: true },
-      ];
-      const expectedOutput = [
-        { description: 'Task 1', completed: false },
-        { description: 'Task 2', completed: true },
-        { description: 'Task 3', completed: false },
-        { description: 'Task 4', completed: true },
-      ];
-      const result = completeTasksFunction(toDoData);
-      expect(result).toEqual(expectedOutput);
-    });
-  
-    test('should not modify the input data', () => {
-      const toDoData = [
-        { description: 'Task 1', completed: false },
-        { description: 'Task 2', completed: true },
-        { description: 'Task 3', completed: false },
-        { description: 'Task 4', completed: true },
-      ];
-      const inputCopy = JSON.parse(JSON.stringify(toDoData)); // deep copy
-      completeTasksFunction(toDoData);
-      expect(toDoData).toEqual(inputCopy);
-    });
-  });
   
