@@ -39,7 +39,16 @@ const editItem = (itemKey, newValue, data) => {
     return newData;
   };
 
+  const completeTasksFunction = (toDoData) => {
+    return toDoData.map((data) => {
+      if (data.completed) {
+        return { ...data, completed: true };
+      } else {
+        return data;
+      }
+    });
+  }
 
-module.exports = { addNewItem, removeItem, editItem, clearCompleted, completeTasks, setItems, displayList, };
+module.exports = { addNewItem, removeItem, editItem, clearCompleted, completeTasks, setItems, displayList, completeTasksFunction };
 
 
