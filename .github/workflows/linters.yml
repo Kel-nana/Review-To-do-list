@@ -14,6 +14,7 @@ jobs:
       - uses: actions/setup-node@v1
         with:
           node-version: "18.x"
+          ignorePath: "**/coverage/**"
       - name: Setup Webhint
         run: |
           npm install --save-dev hint@7.x

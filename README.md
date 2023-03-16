@@ -104,11 +104,6 @@ To run tests, run the following command:
 `npx hint .`<br>
 `npx stylelint "**/*.{css,scss}"`<br>
 `npx eslint .`
-To run jest test, run the following commands:
-<br>
-`npm install`<br>
-`npm install jest --save-dev`<br>
-`npm test`
 
 `npm install jest --save-dev`
 
