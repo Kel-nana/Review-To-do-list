@@ -32,7 +32,12 @@ const editItem = (itemKey, newValue, data) => {
     return data;
   };
 
-
+  const clearCompleted = (data) => {
+    const newData = data.filter((item) => !item.completed);
+    setItems(newData);
+    displayList(newData);
+    return newData;
+  };
 
 
 module.exports = { addNewItem, removeItem, editItem, clearCompleted, completeTasksFunction, completeTasks, setItems, displayList, };
