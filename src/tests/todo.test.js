@@ -1,4 +1,4 @@
-const { addNewItem, removeItem, editItem,clearCompleted} = require('./todo');
+const { addNewItem, removeItem, editItem,clearCompleted, completeTasksFunction} = require('./todo');
 const { setItems, displayList, completeTasks } = require('./todo');
 // const { completeTasksFunction } = require('./completeTaskTest');
 
@@ -82,4 +82,33 @@ describe('clearCompleted', () => {
     });      
 });
 
-  
+describe('completeTasksFunction', () => {
+  test('should set the completed field to true for all completed tasks', () => {
+    const toDoData = [
+      { description: 'Task 1', completed: false },
+      { description: 'Task 2', completed: true },
+      { description: 'Task 3', completed: false },
+      { description: 'Task 4', completed: true },
+    ];
+    const expectedOutput = [
+      { description: 'Task 1', completed: false },
+      { description: 'Task 2', completed: true },
+      { description: 'Task 3', completed: false },
+      { description: 'Task 4', completed: true },
+    ];
+    const result = completeTasksFunction(toDoData);
+    expect(result).toEqual(expectedOutput);
+  });
+
+  test('should not modify the input data', () => {
+    const toDoData = [
+      { description: 'Task 1', completed: false },
+      { description: 'Task 2', completed: true },
+      { description: 'Task 3', completed: false },
+      { description: 'Task 4', completed: true },
+    ];
+    const inputCopy = JSON.parse(JSON.stringify(toDoData)); // deep copy
+    completeTasksFunction(toDoData);
+    expect(toDoData).toEqual(inputCopy);
+  });
+});
