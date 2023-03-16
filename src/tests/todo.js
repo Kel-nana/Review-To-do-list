@@ -40,6 +40,6 @@ const editItem = (itemKey, newValue, data) => {
   };
 
 
-module.exports = { addNewItem, removeItem, editItem, clearCompleted, completeTasksFunction, completeTasks, setItems, displayList, };
+module.exports = { addNewItem, removeItem, editItem, clearCompleted, completeTasks, setItems, displayList, };
 
 

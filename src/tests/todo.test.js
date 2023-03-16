@@ -1,4 +1,4 @@
-const { addNewItem, removeItem, editItem,clearCompleted, completeTasksFunction } = require('./todo');
+const { addNewItem, removeItem, editItem,clearCompleted} = require('./todo');
 const { setItems, displayList, completeTasks } = require('./todo');
 // const { completeTasksFunction } = require('./completeTaskTest');
 
@@ -65,6 +65,21 @@ describe('editItem', () => {
   });
 });
 
-
+describe('clearCompleted', () => {
+  test('clearCompleted should remove completed items from the data array', () => {
+      const initialData = [
+        { id: 1, description: 'item1', completed: true },
+        { id: 2, description: 'item2', completed: false },
+        { id: 3, description: 'item3', completed: true },
+      ];
+      const expectedData = [
+        { id: 2, description: 'item2', completed: false },
+      ];
+    
+      const result = clearCompleted(initialData);
+    
+      expect(result).toEqual(expectedData);
+    });      
+});
 
   
