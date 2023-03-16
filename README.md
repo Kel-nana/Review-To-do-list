@@ -96,7 +96,11 @@ Clone this repository to your desired folder:
 
 Install this project with:
 
-  - You can deploy this projec on hosting provider of your choise or you can deploy it on github pages.
+      npm init -y
+
+      npm start
+      
+      npm test
 
 
 ### Usage
