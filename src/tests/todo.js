@@ -12,6 +12,7 @@ const addNewItem = (item, data) => {
 };
 
 
+
 const removeItem = (itemId, data) => {
     const newData = data.filter((item) => item.id !== itemId);
     setItems(newData);
@@ -20,9 +21,36 @@ const removeItem = (itemId, data) => {
     return newData;
 };
 
+const editItem = (itemKey, newValue, data) => {
+    const oldData = data.filter((item) => item.description === itemKey);
+    if (oldData.length === 0) {
+      return data; 
+    }
+    oldData[0].description = newValue;
+    setItems(data);
+    displayList(data);
+    return data;
+  };
+
+  const clearCompleted = (data) => {
+    const newData = data.filter((item) => !item.completed);
+    setItems(newData);
+    displayList(newData);
+    return newData;
+  };
+
+  const completeTasksFunction = (toDoData) => {
+    return toDoData.map((data) => {
+      if (data.completed) {
+        return { ...data, completed: true };
+      } else {
+        return data;
+      }
+    });
+  };
 
 
 
-module.exports = { addNewItem, removeItem, setItems, displayList, completeTasks };
+module.exports = { addNewItem, removeItem, editItem, clearCompleted, completeTasksFunction, completeTasks, setItems, displayList, };
 
 
