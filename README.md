@@ -1,8 +1,14 @@
 <a name="readme-top"></a>
 
-  <h3><b>To Do LIst </b></h3>
+![](https://img.shields.io/badge/Microverse-blueviolet)
 
-</div>
+> # To-Do List
+### Desktop view shoots for this project:
+
+| Desktop Veiw Representation|
+|---------------------------------------|
+|![screenshot](./src/assets/project-shot.PNG)|
+|![screenshot](./src/assets/project-shot2.PNG)|
 
 <!-- TABLE OF CONTENTS -->
 
@@ -12,7 +18,7 @@
   - [🛠 Built With](#built-with)
     - [Tech Stack](#tech-stack)
     - [Key Features](#key-features)
-      - [🚀 Live Demo](#live-demo)
+  - [🚀 Live Demo](#live-demo)
 - [💻 Getting Started](#getting-started)
   - [Setup](#setup)
   - [Prerequisites](#prerequisites)
@@ -25,145 +31,153 @@
 - [🤝 Contributing](#contributing)
 - [⭐️ Show your support](#support)
 - [🙏 Acknowledgements](#acknowledgements)
+- [❓ FAQ (OPTIONAL)](#faq)
 - [📝 License](#license)
+
 <!-- PROJECT DESCRIPTION -->
 
-# 📖 [To do list]
+# 📖 [To-Do-List] <a name="about-project"></a>
 
-<a name="about-project"></a>
-
-To do list is a project meant to master my skills in version control, GitHub flow, webpack, Jest and JavaScript.
+> **[To-Do List]** is a simple project build to add the todo tasks, check as completed and remove the task. This simple web page build using webpack, served by a webpack dev server, and test via Jest framework.
 
 ## 🛠 Built With <a name="built-with"></a>
 
 ### Tech Stack <a name="tech-stack"></a>
+- <summary>Client</summary>
+    <ul>
+      <li><a href="https://reactjs.org/">HTML</a></li>
+      <li><a href="https://reactjs.org/">CSS</a></li>
+      <li><a href="https://reactjs.org/">Webpack</a></li>
+      <li><a href="https://reactjs.org/">Vanilla JavaScript</a></li>
+      <li><a href="https://reactjs.org/">Jest Testing Framework</a></li>
+    </ul>
 
-- HTML & CSS
-- Linters
-- Git & Github
-- webpack
-- JavaScript
-
-<!-- Features -->
 
 ### Key Features <a name="key-features"></a>
 
-- [ ] **Display To do Lists**
-- [ ] **Add to do list dynamically**
-- [ ] **Add list in the order of their index**
+- **[Responsive layout]**
+- **[UX/UI accessibility]**
+- **[Dynamic data]**
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
-## Getting Started
+
 <!-- LIVE DEMO -->
 
 ## 🚀 Live Demo <a name="live-demo"></a>
 
-- [Live Demo Link](https://kel-nana.github.io/To-Do-list/dist)
+> - [Live Demo Link](https://ab-noori.github.io/Review-To-do-list/dist)
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
+
+<!-- GETTING STARTED -->
+
+## 💻 Getting Started <a name="getting-started"></a>
+
+To get a local copy up and running, follow these steps:
 
 ### Prerequisites
 
-- A web browser (e.g. Mozilla Firefox, Google Chrome etc.)
-- git: This is a version control system used for source code management.
-- A text editor (e.g Visual Studio Code (recommended), Sublime Text, Atom etc.)
-- Live Server: A web extension utility for Visual Studio Code that helps you live reload feature for dynamic pages.
-- Basic knowledge on HTML and CSS.
+In order to run this project you need:
+  - A browser of you choice.
+  - A text editor of your choice.
+  - An installed node.js on your local system
 
 ### Setup
 
-To get a local copy up and running follow these simple example steps.
+Clone this repository to your desired folder:
 
-- With git, clone the code to your machine, or download a ZIP of all the files directly.
-- [Download the ZIP file from this location](https://github.com/Kel-nana/To-Do-list/archive/refs/heads/list-structure.zip) or run the following [git](https://git-scm.com/) command to clone the files to your machine:
+- Use the following Commands:
 
-```
-git clone git@github.com:Kel-nana/To-Do-list.git
-```
+      cd your-desired-folder
+      git clone git@github.com:ab-noori/Project-Template.git
 
-- Once the files are on your machine, open the **TodoList** folder in [Visual Studio Code](https://code.visualstudio.com/download).
-
-- Run `npm install` to install all necessary packages.
-
-### Usage
-
-- Add the changes you want and feel free to use in your project!
 
 ### Install
 
-To install linter run the following command:
-<br>
-`npm install --save-dev hint@7.x `<br>
-`npm install --save-dev stylelint@13.x stylelint-scss@3.x stylelint-config-standard@21.x stylelint-csstree-validator@1.x`<br>
-`npm install --save-dev eslint@7.x eslint-config-airbnb-base@14.x eslint-plugin-import@2.x babel-eslint@10.x`
+Install this project with:
+
+  - You can deploy this projec on hosting provider of your choise or you can deploy it on github pages.
+
+
+### Usage
+- Use following commands to run on your local system:
+
+      npm run build
+      npm run dev
 
 ### Run tests
+- Run the following script and style test:
 
-To run tests, run the following command:
-<br>
-`npx hint .`<br>
-`npx stylelint "**/*.{css,scss}"`<br>
-`npx eslint .`
+      npx eslint .
+      npx stylelint "**/*.{css,scss}"
+ 
 
-`npm install jest --save-dev`
 
-## Deployment
+### Deployment
 
-- After opening the files in Visual Studio Code, run `npm run start` to launch the files with Web Dev Server.
+You can deploy this project using:
+- Free deployment services like GitHub pages.
+- Any deployment services of your choice.
 
-### Merge
-
-- Merge it so we can all see your work!!🤝
-
-## Authors
-
-👤 **Author1**
-
-- GitHub: [@Kel-nana](https://github.com/Kel-nana)
-- Linkedin: [@kelvin-irungu](https://www.linkedin.com/in/kelvin-irungu-838923249/)
-- Twitter: [@kelvin-irungu](https://twitter.com/home)
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
-<!-- FUTURE FEATURES -->
+
+## 👥 Authors <a name="authors"></a>
+
+👤 **Abdul Ali Noori**
+
+- GitHub: [@ab-noori](https://github.com/ab-noori)
+- Twitter: [@AbdulAliNoori4](https://twitter.com/AbdulAliNoori4)
+- LinkedIn: [abdul-ali-noori](https://www.linkedin.com/in/abdul-ali-noori-384b85195/)
+
 
 ## 🔭 Future Features <a name="future-features"></a>
 
-- [ ] **[Implement complete task indication]**
-- [ ] **[Remove a task]**
-- [ ] **[Clear all completed tasks]**
-<!-- CONTRIBUTING -->
+- [ ] **[Add About page]**
+- [ ] **[Add Contact page]**
+
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 ## 🤝 Contributing <a name="contributing"></a>
 
 Contributions, issues, and feature requests are welcome!
 
-Feel free to check the [issues page](https://github.com/Kel-nana/Purple-Coders---HTML-CSS-JavaScript-capstone-project/issues).
+Feel free to check the [issues page](https://github.com/ab-noori/Awesome-Books/issues).
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
-
-<!-- SUPPORT -->
 
 ## ⭐️ Show your support <a name="support"></a>
 
-Share ideas on how to improve this project.
+ 
+  If you like this project, give it a star.
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
-<!-- ACKNOWLEDGEMENTS -->
 
 ## 🙏 Acknowledgments <a name="acknowledgements"></a>
 
-I would like to thank Microverse documentation and my coding partner
-
-<p align="right">
+  I would like to thank Microverse and my coding partners, and also give credit to Traversy Media
+YouTub Channel, I really learned a lot from this channel.
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
-<!-- LICENSE -->
+
+## ❓ FAQ (OPTIONAL) <a name="faq"></a>
+
+- **How to make it mobile friendly?**
+
+  - Put a viewport tag in the header
+
+- **How to design the site?**
+
+  - Draw a mockup before start to code
+
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
+
 
 ## 📝 License <a name="license"></a>
 
-This project is [MIT](https://github.com/Kel-nana/To-Do-list/blob/list-structure/LICENSE) licensed 2023.
+This project is [MIT](./LICENSE) licensed.
 
-# <p align="right">(<a href="#readme-top">back to top</a>)</p>
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
