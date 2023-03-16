@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<coverage generated="1678975491114" clover="3.2.0">
-  <project timestamp="1678975491115" name="All files">
-    <metrics statements="30" coveredstatements="30" conditionals="2" coveredconditionals="2" methods="7" coveredmethods="7" elements="39" coveredelements="39" complexity="0" loc="30" ncloc="30" packages="1" files="1" classes="1"/>
-    <file name="todo.js" path="C:\Users\Abdul Ali Noori\Desktop\Review-To-do-list\src\tests\todo.js">
-      <metrics statements="30" coveredstatements="30" conditionals="2" coveredconditionals="2" methods="7" coveredmethods="7"/>
+<coverage generated="1678978553071" clover="3.2.0">
+  <project timestamp="1678978553071" name="All files">
+    <metrics statements="35" coveredstatements="35" conditionals="4" coveredconditionals="4" methods="9" coveredmethods="9" elements="48" coveredelements="48" complexity="0" loc="35" ncloc="35" packages="1" files="1" classes="1"/>
+    <file name="todo.js" path="C:\Users\Ryank\Review-To-do-list\src\tests\todo.js">
+      <metrics statements="35" coveredstatements="35" conditionals="4" coveredconditionals="4" methods="9" coveredmethods="9"/>
       <line num="1" count="1" type="stmt"/>
       <line num="2" count="1" type="stmt"/>
       <line num="3" count="1" type="stmt"/>
@@ -33,7 +33,12 @@
       <line num="37" count="1" type="stmt"/>
       <line num="38" count="1" type="stmt"/>
       <line num="39" count="1" type="stmt"/>
-      <line num="43" count="1" type="stmt"/>
+      <line num="42" count="1" type="stmt"/>
+      <line num="43" count="2" type="stmt"/>
+      <line num="44" count="8" type="cond" truecount="2" falsecount="0"/>
+      <line num="45" count="4" type="stmt"/>
+      <line num="47" count="4" type="stmt"/>
+      <line num="52" count="1" type="stmt"/>
     </file>
   </project>
 </coverage>
