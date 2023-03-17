@@ -1,5 +1,5 @@
-import { displayList } from '../dropDownDisplay.js';
-import { setItems } from '../localStorage.js';
+import { displayList } from './dropDownDisplay.js';
+import { setItems } from './localStorage.js';
 
 const clearCompleted = (data) => {
   const newData = data.filter((item) => !item.completed);
