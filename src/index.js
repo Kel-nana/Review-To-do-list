@@ -1,8 +1,8 @@
 // Import necessary modules
 import './style.css';
-import { displayArea, displayList } from './dropDownDisplay.js';
-import { getItems } from './localStorage.js';
-import completeTasks from './interaction.js';
+import { displayArea, displayList } from './modules/dropDownDisplay.js';
+import { getItems } from './modules/localStorage.js';
+import completeTasks from './modules/completeCheck.js';
 import addNewItem from './modules/addNewItem.js';
 import removeItem from './modules/removeItem.js';
 import editItem from './modules/editItem.js';

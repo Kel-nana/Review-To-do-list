@@ -1,5 +1,5 @@
-import { displayList } from '../dropDownDisplay.js';
-import { setItems } from '../localStorage.js';
+import { displayList } from './dropDownDisplay.js';
+import { setItems } from './localStorage.js';
 
 const editItem = (itemKey, newValue, data) => {
   const oldData = data.filter((item) => item.description === itemKey);
